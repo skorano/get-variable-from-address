@@ -25,8 +25,8 @@ var addressBar = {
     }
 };
 
-// addressBar.getVariable(name) - returns value of selected value from addres bar eg. /?name=value
+// addressBar.getVariable(name) - returns value of selected property from addres bar eg. /?name=value
 // addressBar.addVariable(name, value) - will add new variable into address bar. Also will return error if variable already exists
 // addressBar.updateVariable(name, value) - will change value of already existing variable in address bar
 // addressBar.get() - returns current address
-// addressBar.push() - sets new address and push it into history state
+// addressBar.push() - set new address and push it into history state
